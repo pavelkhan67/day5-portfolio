@@ -2,10 +2,18 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* header */
-.header{
+.header {
+    width: 1695px;
+    height: 837px;
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+
 }
+
 /* navigation style */
 .nav-title {
     font-weight: 800;
@@ -40,16 +48,17 @@ nav li {
     padding: 5px 15px;
     color: white;
     background-color: #FD6E0A;
-    border: 0 ;
+    border: 0;
     border-radius: 3px;
 }
 
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     margin: 0 0 0 200px;
     align-items: center;
-} 
+}
+
 .btn-secondary {
     width: fit-content;
     height: 35px;
@@ -58,7 +67,46 @@ nav li {
     padding: 5px 15px;
     background-color: #FFF8F3;
     color: #FD6E0A;
-    border: 1px solid #FD6E0A ;
+    border: 1px solid #FD6E0A;
     border-radius: 3px;
     margin-left: 30px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* About section styles */
+.about {
+    margin: 130px 0;
+    text-align: center;
+    padding: 130px 150px ;
+    background-color:#FFF8F3 ;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.ititle{
+    font-size: 20px;
+    color: #757575;
+}
+.idescrib{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* What i do section */
+.whatido{
+    display: flex;
 }
